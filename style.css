@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #34B7DB;
+  width: 100%;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: black;
+  height: 200px;
+  padding-right: 40px;
+}
+
+.nav-left-buttons {
+  margin: 128px 0 0 40px;
+  width: 150px;
+  height: 30px;
+  padding: 0;
+  background: none;
+  border: none;
+  color: #7C7C7C;
+  background-repeat: no-repeat;
+  font-size: 1.5em;
+  outline: none;
+}
+
+.nav-left-buttons:hover {
+  color: white;
+}
+
+.shares-button {
+  background-image: url(images/shareblue.png);
+  background-size: 23px;
+  background-position: 5px 3px;
+}
+
+.play-button {
+  background-image: url(images/listblue.png);
+  background-size: 28px;
+  background-position: 10px 1px;
+}
+
+.video-button {
+  background-image: url(images/personblue.png);
+  background-size: 30px;
+}
+
+.nav-right {
+    width: 17%;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.admin-button {
+  background-image: url(images/adminblue.png), url(images/downarrowblue.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  border: none;
+  background-position: left, right;
+  background-color: transparent;
+  width: 212px;
+  height: 50px;
+  margin: 10px 0px 30px 28px;
+}
+
+.logo-button {
+  background-image: url(images/billboard.png);
+  background-size: 372px 209px;
+  background-repeat: no-repeat;
+  border: none;
+  background-position: -73px -48px;
+  background-color: transparent;
+  width: 235px;
+  height: 110px;
+}
+
+/*main box styling*/
+main {
+  width: 100%;
+  background-color: lightgrey;
+  padding: 40px 0 100px 0;
+}
+
+h2 {
+  color: #2B2B2B;
+  margin: 0 0 40px 22px;
+  font-size: 2em;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 97%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+/*card styling*/
+h3 {
+  font-size: 1.8em;
+}
+
+.url-button {
+  height: 70px;
+  width: 100%;
+  background-color: grey;
+}
+
+a {
+  color: lightgrey;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+
+
+.card {
+  width: 24.5%;
+  min-width: 300px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 175px;
+  padding: 20px;
+}
+
+.position-number {
+  text-align: center;
+}
+
+.card-one {
+  background-image: url(images/drakeblur.png);
+  background-position: -80px 15px;
+}
+
+.card-one:hover {
+  background-image: url(images/drake.png);
+}
+
+.card-two {
+  background-image: url(images/bebeblur.png);
+  background-size: 150px;
+  background-position: 80px 23px;
+}
+
+.card-two:hover {
+  background-image: url(images/bebe.png);
+}
+
+.card-three {
+  background-image: url(images/brunoblur.png);
+  background-size: 210px;
+  background-position: 45px 15px;
+}
+
+.card-three:hover {
+  background-image: url(images/bruno.png);
+}
+
+.card-four {
+  background-image: url(images/postblur.png);
+  background-size: 220px;
+  background-position: 45px 20px;
+
+}
+
+.card-four:hover {
+  background-image: url(images/post.png);
+}
+
+.card-five {
+  background-image: url(images/edblur.png);
+  background-size: 180px;
+  background-position: 70px 25px;
+}
+
+.card-five:hover {
+  background-image: url(images/ed.png);
+}
+
+.card-six {
+  background-image: url(images/blocblur.png);
+  background-position: -55px 20px;
+}
+
+.card-six:hover {
+  background-image: url(images/bloc.png);
+}
+
+.card-seven {
+  background-image: url(images/zeddblur.png);
+  background-size: 275px;
+  background-position: 40px 0;
+}
+
+.card-seven:hover {
+  background-image: url(images/zedd.png);
+}
+
+.card-eight {
+  background-image: url(images/dickyblur.png);
+  background-position: 5px 16px;
+}
+
+.card-eight:hover {
+  background-image: url(images/dicky.png);
+}
+
+.card-header-button {
+  background-image: url(images/rightarrow.png);
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 75px;
+  width: 75px;
+  background-size: 75px;
+}
+
+.card-header-content {
+  font-size: 1.5em;
+  color: black;
+}
+
+.card-body {
+  padding: 0 20px;
+}
+
+.home-town {
+  margin: 0 0 20px 0;
+  color: grey;
+}
+
+.song {
+  margin: 15px 0 0 0;
+  font-size: 1.2em;
+}
+
+.song-title {
+  color: grey;
+  font-size: 1.4em;
+  margin-bottom: 15px;
+}
+
+.playlist {
+  margin: 20px 0 0 0;
+}
+
+.weeks {
+  font-size: 1.2em;
+}
+
+.number {
+  color: #34B7DB;
+  font-size: 3em;
+}
+
+/*media queries*/
+@media only screen and (max-width: 1300px) {
+
+    .nav-right {
+      width: 20%;
+    }
+
+    .card {
+        width: 33%;
+    }
+
+    .card-one {
+      background-position: -80px 15px;
+      background-size: 100%;
+    }
+
+    .card-two {
+      background-position: 100px 23px;
+      background-size: 50%;
+    }
+
+    .card-three {
+      background-position: 90px 15px;
+      background-size: 55%;
+    }
+
+    .card-four {
+      background-position: 80px 20px;
+      background-size: 60%;
+    }
+
+    .card-five {
+      background-position: 100px 25px;
+      background-size: 50%;
+    }
+
+    .card-six {
+      background-position: -65px 20px;
+      background-size: 100%;
+    }
+
+    .card-seven {
+      background-position: 70px 0;
+      background-size: 75%;
+    }
+
+    .card-eight {
+      background-position: 20px 16px;
+      background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .nav-right {
+      width: 23%;
+    }
+
+    .flex-container {
+      justify-content: space-around;
+    }
+
+    .card {
+        width: 49%;
+    }
+
+    .card-one {
+      background-position: -65px 15px;
+      background-size: 90%;
+
+    }
+
+    .card-two {
+      background-position: 135px 23px;
+      background-size: 40%;
+    }
+
+    .card-three {
+      background-position: 120px 15px;
+      background-size: 45%;
+    }
+
+    .card-four {
+      background-position: 110px 20px;
+      background-size: 50%;
+    }
+
+    .card-five {
+      background-position: 130px 20px;
+      background-size: 40%;
+
+    }
+
+    .card-six {
+      background-position: -50px 20px;
+      background-size: 95%;
+    }
+
+    .card-seven {
+      background-position: 95px -5px;
+      background-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .main-header {
+      padding: 0;
+    }
+
+    .admin-button {
+      background-position: 17% 7px, 82%;
+    }
+
+    .nav-left {
+      display: none;
+    }
+
+    .nav-right,
+    .right-nav-buttons {
+      display: block;
+      width: 60%;
+      min-width: 320px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .logo-button {
+      background-position: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .card-one {
+      background-position: -40px 25px;
+    }
+
+    .card-two {
+      background-position: 95px 23px;
+    }
+
+    .card-three {
+      background-position: 70px 15px;
+      background-size: 55%;
+    }
+
+    .card-four {
+      background-position: 85px 30px;
+    }
+
+    .card-five {
+      background-position: 90px 25px;
+      background-size: 45%;
+    }
+
+    .card-six {
+      background-size: 100%;
+    }
+
+    .card-seven {
+      background-position: 70px 10px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .card {
+      width: 70%;
+      min-width: 320px;
+    }
+
+    .card-one {
+      background-position: -75px 10px;
+      background-size: 100%;
+    }
+
+    .card-two {
+      background-position: 115px 15px;
+    }
+
+    .card-three {
+      background-position: 95px 15px;
+      background-size: 50%;
+    }
+
+    .card-four {
+      background-position: 90px 20px;
+      background-size: 55%;
+    }
+
+    .card-five {
+      background-position: 110px 15px;
+    }
+
+    .card-six {
+      background-position: -90px 10px;
+      background-size: 110%;
+    }
+
+    .card-seven {
+      background-position: 90px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .card {
+        width: 95%;
+    }
+
+    .nav-right {
+      margin: 0;
+      padding: 5px 10px;
+    }
+
+    .hamburger-menu {
+      display: block;
+      width: 40px;
+      height: 35px;
+      background-image: url(images/hamburger.png);
+      background-size: cover;
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+
+    .logo-button {
+      margin-top: 20px;
+    }
+
+    .admin-button {
+      display: none;
+    }
+
+    .card-one {
+      background-position: -65px 30px;
+    }
+
+    .card-two {
+      background-position: 100px 35px;
+    }
+
+    .card-three {
+      background-position: 80px 30px;
+    }
+
+    .card-four {
+      background-position: 70px 35px;
+    }
+
+    .card-five {
+      background-position: 90px 35px;
+    }
+
+    .card-six {
+      background-position: -60px 25px;
+    }
+
+    .card-seven {
+      background-position: 70px 30px;
+    }
+
+    .card-eight {
+      background-position: 20px 35px;
+    }
+}
